@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://${DB_URL}:3306/mysql
+    username: root
+    password: password
+  flyway:
+    default-schema: mysql
+    schemas: mysql
+    baseline-on-migrate: true

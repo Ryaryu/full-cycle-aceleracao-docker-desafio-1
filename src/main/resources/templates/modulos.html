@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Programa Full-Cycle de Aceleração</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+  <ul>
+    <li th:each="modulo: ${modulos}">
+      <span th:text="${modulo.nome}"/>
+    </li>
+  </ul>
+</body>
+</html>
